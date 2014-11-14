@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/difficulty_page"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/point"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/point" />
+
+    <TextView
+        android:id="@+id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="500sp"
+        android:layout_weight="0.21"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnagain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:text="再玩一次"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnbackchoice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="返回選擇模式"
+        android:textSize="20sp" />
+
+</LinearLayout>

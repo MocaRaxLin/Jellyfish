@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/difficulty_page">
+
+    <ImageButton
+        android:id="@+id/difficulty1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105sp"
+        android:layout_marginTop="100sp"
+        android:background="#00000000"
+        android:src="@drawable/difficulty1" />
+    
+    <ImageButton
+        android:id="@+id/difficulty2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105sp"
+        android:layout_marginTop="300sp"
+        android:background="#00000000"
+        android:src="@drawable/difficulty2" />
+    <ImageView
+        android:id="@+id/jellyfishicon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="275sp"
+        android:layout_marginTop="400sp"
+        android:src="@drawable/jellyfish" />
+
+    <ImageView
+        android:id="@+id/jellyfishicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15sp"
+        android:layout_marginTop="400sp"
+        android:src="@drawable/jellyfish" />
+
+
+</RelativeLayout>
